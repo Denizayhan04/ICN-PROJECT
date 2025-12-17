@@ -1,0 +1,163 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 20px;
+    background-color: #f0f2f5;
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+.wrapper {
+    max-width: 900px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.top-title {
+    text-align: center;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #eee;
+    padding-bottom: 10px;
+}
+
+.top-title h1 {
+    color: #444;
+    font-size: 24px;
+    margin: 0;
+}
+
+/* Input Alanı */
+.controls {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+    background-color: #f9f9f9;
+    padding: 15px;
+    border: 1px solid #ddd;
+}
+
+select, input[type="text"] {
+    padding: 8px;
+    border: 1px solid #aaa;
+    border-radius: 3px;
+    font-size: 14px;
+}
+
+#my-url {
+    flex-grow: 1;
+}
+
+#btn-send {
+    padding: 8px 20px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+#btn-send:hover {
+    background-color: #218838;
+}
+
+#btn-send:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+/* Orta Bölüm */
+.middle-area {
+    display: flex;
+    gap: 20px;
+    height: 400px;
+}
+
+.box {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #bbb;
+}
+
+.gray-header {
+    background-color: #e9ecef;
+    padding: 10px;
+    border-bottom: 1px solid #bbb;
+    font-weight: bold;
+    font-size: 14px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.tiny-text {
+    font-weight: normal;
+    color: #666;
+    font-size: 12px;
+}
+
+textarea, .code-view {
+    flex: 1;
+    padding: 10px;
+    border: none;
+    resize: none;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 13px;
+    background-color: #fff;
+    color: #000;
+    overflow: auto;
+}
+
+/* div olduğu için whitespace önemli */
+.code-view {
+    white-space: pre-wrap; 
+    background-color: #fafafa;
+}
+
+.my-badge {
+    padding: 3px 8px;
+    font-size: 12px;
+    background-color: #ccc;
+    border-radius: 3px;
+    color: #333;
+}
+
+.my-badge.ok {
+    background-color: #d4edda;
+    color: #155724;
+    border: 1px solid #c3e6cb;
+}
+
+.my-badge.fail {
+    background-color: #f8d7da;
+    color: #721c24;
+    border: 1px solid #f5c6cb;
+}
+
+.bottom-area {
+    margin-top: 20px;
+    text-align: right;
+    border-top: 1px solid #eee;
+    padding-top: 10px;
+}
+
+.gray-btn {
+    background-color: #6c757d;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 13px;
+}
+
+.gray-btn:hover {
+    background-color: #5a6268;
+}

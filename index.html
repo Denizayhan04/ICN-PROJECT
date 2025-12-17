@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple API App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="wrapper">
+        <div class="top-title">
+            <h1>Web Based API Client</h1>
+        </div>
+
+        <div class="controls">
+            <select id="my-method">
+                <option value="GET">GET</option>
+                <option value="POST">POST</option>
+                <option value="PUT">PUT</option>
+                <option value="DELETE">DELETE</option>
+            </select>
+            
+            <input type="text" id="my-url" placeholder="http://api.url/..." value="https://jsonplaceholder.typicode.com/todos/1">
+            
+            <button id="btn-send">Send Request</button>
+        </div>
+
+        <div class="middle-area">
+            
+            <div class="box">
+                <div class="gray-header">
+                    <span>Request Body</span>
+                    <span class="tiny-text">(JSON only)</span>
+                </div>
+                <textarea id="body-text" placeholder='{ "name": "John" }'></textarea>
+            </div>
+
+            <div class="box">
+                <div class="gray-header">
+                    <span>Response</span>
+                    <span id="status-tag" class="my-badge">Waiting</span>
+                </div>
+                
+                <div id="output-text" class="code-view">No request sent yet.</div>
+            </div>
+
+        </div>
+        
+        <div class="bottom-area">
+            <button id="btn-save" class="gray-btn">Download History (.json)</button>
+        </div>
+    </div>
+
+    <script type="module" src="js/main.js"></script>
+</body>
+</html>
