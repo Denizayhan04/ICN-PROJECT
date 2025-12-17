@@ -93,7 +93,7 @@ Creating a new data entry on the server.
 Modifying an existing record.
 
 ![PUT Input](https://github.com/Denizayhan04/ICN-PROJECT/blob/main/screenshots/put1.png)
-*Fig 5: Targeting a specific ID and sending updated JSON.*
+*Fig 5: Targeting a specific feature and sending updated JSON.*
 
 ![PUT Response](https://github.com/Denizayhan04/ICN-PROJECT/blob/main/screenshots/put2.png)
 *Fig 6: The updated object returned by the server.*
