@@ -6,7 +6,7 @@
 
 When I decided to work on this project, I immediately thought of creating a web-client version of the Postman application.
 
-![Postman Interface](path/to/postman-image.png)
+![Postman Interface](https://github.com/Denizayhan04/ICN-PROJECT/blob/main/screenshots/resim2postman.png)
 
 Postman is a popular tool for testing APIs. It allows users to input parameters such as the HTTP method and URL, and then send the request with a single click.
 
