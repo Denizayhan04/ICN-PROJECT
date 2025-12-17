@@ -12,7 +12,7 @@ Postman is a popular tool for testing APIs. It allows users to input parameters 
 
 Normally, these operations are performed via the terminal using command-line tools like cURL. However, Postman visualizes this process, making it much easier to understand and manage.
 
-![cURL Example](path/to/curl-image.png)
+![cURL Example](https://github.com/Denizayhan04/ICN-PROJECT/blob/main/screenshots/curl.png)
 
 By building this application for the web, we eliminate the need to download and install software. This also provides platform independence, allowing the tool to run on any device with a browser.
 
