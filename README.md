@@ -50,7 +50,7 @@ This refactoring process made the codebase significantly cleaner, more modular, 
 ├── index.html       # Structure of the application
 ├── README.md        # Project documentation
 └── style.css        # Visual styling
-
+```
 ## User Guide
 
 Follow the steps below to operate the application:
