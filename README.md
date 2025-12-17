@@ -61,3 +61,50 @@ Follow the steps below to operate the application:
 4. **Send:** Click the "SEND" button to initiate the request.
 5. **Result:** You can view the server response, status code, and response time in the right panel.
 6. **Download:** You can save the request history to your computer using the "Download History" button at the bottom of the page.
+
+
+## Usage Examples
+
+Below are screenshots demonstrating how to use different HTTP methods within the application.
+
+### 1. GET Request (Retrieving Data)
+Fetching a specific item from the API.
+
+![GET Input](https://github.com/Denizayhan04/ICN-PROJECT/blob/main/screenshots/get.png)
+*Fig 1: Setting up the GET request url.*
+
+![GET Response](https://github.com/Denizayhan04/ICN-PROJECT/blob/main/screenshots/get2.png)
+*Fig 2: The server response showing the requested data.*
+
+---
+
+### 2. POST Request (Sending Data)
+Creating a new data entry on the server.
+
+![POST Input](https://github.com/Denizayhan04/ICN-PROJECT/blob/main/screenshots/postreq.png)
+*Fig 3: Selecting POST method and entering JSON body.*
+
+![POST Response](https://github.com/Denizayhan04/ICN-PROJECT/blob/main/screenshots/postres.png)
+*Fig 4: Server confirms creation with ID 101.*
+
+---
+
+### 3. PUT Request (Updating Data)
+Modifying an existing record.
+
+![PUT Input](https://github.com/Denizayhan04/ICN-PROJECT/blob/main/screenshots/put1.png)
+*Fig 5: Targeting a specific ID and sending updated JSON.*
+
+![PUT Response](https://github.com/Denizayhan04/ICN-PROJECT/blob/main/screenshots/put2.png)
+*Fig 6: The updated object returned by the server.*
+
+---
+
+### 4. DELETE Request (Removing Data)
+Deleting a record from the database.
+
+![DELETE Input](https://github.com/Denizayhan04/ICN-PROJECT/blob/main/screenshots/delete.png)
+*Fig 7: Selecting DELETE method for a specific ID.*
+
+![DELETE Response](https://github.com/Denizayhan04/ICN-PROJECT/blob/main/screenshots/delet1.png)
+*Fig 8: Empty response or success message confirming deletion.*
