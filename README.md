@@ -23,7 +23,7 @@ I started by setting up the project folder structure. Then, I built the visual i
 
 Since this is a functional tool rather than a content-heavy website, I did not focus on SEO features during the development of the HTML structure. The priority was a clean, usable interface.
 
-![Website Interface](path/to/website-screenshot.png)
+![Website Interface](https://github.com/Denizayhan04/ICN-PROJECT/blob/main/screenshots/web.png)
 
 ### 2. Functionality (JavaScript)
 After the design was in place, I started using JavaScript to make the site functional.
