@@ -40,7 +40,16 @@ Initially, I completed the project by calling all functions within a single `mai
 
 This refactoring process made the codebase significantly cleaner, more modular, and easier to maintain.
 
-![Code Structure](path/to/code-screenshot.png)
+```text
+├── js/
+│   ├── api.js       # API request logic (fetch, error handling)
+│   ├── main.js      # Main application controller
+│   ├── ui.js        # DOM manipulation and UI updates
+│   └── utils.js     # Helper functions (JSON formatting)
+├── screenshots/     # Images used in README
+├── index.html       # Structure of the application
+├── README.md        # Project documentation
+└── style.css        # Visual styling
 
 ## User Guide
 
